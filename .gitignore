@@ -1,0 +1,61 @@
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# JetBrains CLion
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# CMake / build artifacts
+/build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+
+# Compiled objects, libraries and executables
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Debug / profiling / coverage
+*.log
+*.gcno
+*.gcda
+*.gcov
+coverage/
+
+# Editor backups and temp files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+
+# Documentation / distribution / packaging
+dist/
+build_docs/
+doc/html/
+
+# Misc
+.env
+local.properties
